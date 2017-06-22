@@ -1,0 +1,80 @@
+#game {
+  display: table;
+  font-size: 2em;
+  float: left;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  display: table-cell;
+  border: solid 2px black
+}
+
+.row {
+  display: table-row;
+}
+
+#game div {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bomb {
+  background: red;
+}
+
+.empty {
+  background: grey;
+}
+
+.number {
+  background: white;
+}
+
+form {
+  display: grid;
+  float: left;
+  margin: 10px;
+}
+
+input {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+#popup {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  visibility: hidden;
+  position: relative;
+}
+
+#popup span {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.buttons {
+  text-indent: 0;
+  border: 1px solid black;
+  ;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 40px;
+  line-height: 40px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+}
