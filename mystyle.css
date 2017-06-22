@@ -21,7 +21,7 @@
 }
 
 .bomb {
-  background: red;
+  background: darkred;
 }
 
 .empty {
@@ -29,7 +29,7 @@
 }
 
 .number {
-  background: white;
+  background: lightsteelblue;
 }
 
 form {
